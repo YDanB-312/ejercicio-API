@@ -1,0 +1,27 @@
+.tarjeta {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    margin-bottom: 1.5rem;
+    overflow: hidden;
+}
+
+.tarjeta-encabezado {
+    padding: 1rem 1.5rem;
+    border-bottom: 1px solid #e9ecef;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #f8f9fa;
+}
+
+.tarjeta-encabezado h2,
+.tarjeta-encabezado h3 {
+    margin: 0;
+    font-size: 1.25rem;
+    color: #1a3a5c;
+}
+
+.tarjeta-cuerpo {
+    padding: 1.5rem;
+}

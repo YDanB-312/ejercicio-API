@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f0f2f5;
+    color: #333;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.barra-navegacion {
+    background: #1a3a5c;
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.barra-navegacion .logo {
+    height: 50px;
+    width: auto;
+}
+
+.barra-navegacion .enlaces {
+    display: flex;
+    gap: 1.5rem;
+    list-style: none;
+}
+
+.barra-navegacion .enlaces a {
+    color: #ecf0f1;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 0.5rem 0;
+    transition: color 0.2s;
+}
+
+.barra-navegacion .enlaces a:hover {
+    color: #3498db;
+}
+
+.contenedor {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+    flex: 1;
+}
+
+.pie-pagina {
+    background: #1a3a5c;
+    color: #ecf0f1;
+    text-align: center;
+    padding: 1.5rem;
+    margin-top: auto;
+}
+
+.pie-pagina a {
+    color: #3498db;
+    text-decoration: none;
+    margin: 0 0.5rem;
+}
+
+.pie-pagina a:hover {
+    text-decoration: underline;
+}
+
+.pie-pagina .redes-sociales {
+    margin-bottom: 0.5rem;
+}
+
+.pie-pagina .redes-sociales a {
+    font-size: 1.2rem;
+}
+
+.encabezado-pagina {
+    margin-bottom: 1.5rem;
+}
+
+.encabezado-pagina h1 {
+    font-size: 1.8rem;
+    color: #1a3a5c;
+}
